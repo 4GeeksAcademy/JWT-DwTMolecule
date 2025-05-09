@@ -17,7 +17,7 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light bg-light">
 			<div className="container">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">Hola! Estoy en JWT Authentication</span>
+					<span className="navbar-brand mb-0 h1">Hola! Estoy en JWT Authentication, Presioname para volver a la pagina principal! </span>
 				</Link>
 				<div className="ml-auto">
 					{store.auth ? <button className="btn btn-primary" onClick={()=>handleLogout()} >Logout</button> : null }

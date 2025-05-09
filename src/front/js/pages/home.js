@@ -10,12 +10,14 @@ export const Home = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1>Hola!!</h1>
+			<h1>Hola!! Ingresa a tu cuenta aqui </h1>
 			
 			{store.auth ? <Navigate to="/private"/> : <Form/> }
-			<Link to="/signup">
+			<div className="mb-3 mx-auto mt-3">
+				<Link to="/signup">
 						<button className="btn btn-primary">Registrate!</button>
-			</Link>
+				</Link>
+			</div>
 		</div>
 	);
 };
