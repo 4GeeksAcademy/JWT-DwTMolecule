@@ -11,7 +11,7 @@ export const Signup = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1>Registrate</h1>
+			<h1>Registro</h1>
 			
 			<FormSignup/>
 		</div>

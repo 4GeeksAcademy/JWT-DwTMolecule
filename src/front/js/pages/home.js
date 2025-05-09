@@ -14,6 +14,7 @@ export const Home = () => {
 			
 			{store.auth ? <Navigate to="/private"/> : <Form/> }
 			<div className="mb-3 mx-auto mt-3">
+				<h3>Si no tienes cuenta, registrate aqui </h3>
 				<Link to="/signup">
 						<button className="btn btn-primary">Registrate!</button>
 				</Link>

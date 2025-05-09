@@ -11,7 +11,7 @@ export const Private = () => {
         <div className="container">
             {store.auth ?
               
-            <h1>Esta es mi pagina protegida</h1>
+            <h1>Esta es tu pagina protegida</h1>
             
             : <Form/> }
         </div>

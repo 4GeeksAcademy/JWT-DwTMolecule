@@ -42,7 +42,7 @@ const FormSignup = () => {
                     />
                 </div>
                 
-                {store.auth ? <Navigate to="/private"/> :  <button type="submit" className="btn btn-primary">Register</button>}
+                {store.auth ? <Navigate to="/private"/> :  <button type="submit" className="btn btn-primary">Registrar</button>}
                 
             </form>
         </div>
